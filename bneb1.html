@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <!-- Internal: menulis CSS langsung dalam file HTML -->
+        <style>
+            body {
+                font-family:Arial, Helvetica, sans-serif;
+                margin:0;
+            }
 
+            header {
+                align-content:center;
+                text-align:center;
+                background:purple;
+                height:100px;
+            }
+
+            nav {
+                /*padding:10px;*/
+                /*margin:10px;*/
+                width: 90%;
+                background-color: rgb(15 0 15 / 10%);
+            }
+
+            section {
+                zoom: 0.7;
+                display:flex;
+                flex-wrap:wrap;
+                flex-direction:row;
+                justify-content:flex-start;
+                align-items:stretch;
+            }
+
+            article {
+                padding:10px;
+                margin:10px;
+                background:aqua;
+                width: 30%;
+            }
+
+            p {
+                color:rgb(21, 10, 21);
+                font-size:18px;
+                /* width:50%;
+                height:50px;
+                padding:20px; */
+            }
+
+            h1 {
+                color:rgb(241, 196, 241);
+                font-family:Arial, Helvetica, sans-serif;
+                font-style:normal;
+                font-weight:600;
+                font-size:36px;
+            }
+
+            h2 {
+                color:rgb(35, 16, 35);
+                font-family:Arial, Helvetica, sans-serif;
+                font-style:normal;
+                font-weight:600;
+                font-size:28px;
+            }
+
+            span {
+                /*background: rgb(21 10 21 / 60%); */
+                filter: blur(2px);
+            }
+
+            .ending {
+                padding:10px;
+                margin:10px;
+                color:rgb(21, 10, 21);
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(220 0 220 / 20%);
+                background-position: center;
+                font-size:18px;
+                align-items: center;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            .end-dx {
+                zoom: 0.6;
+                display:flex;
+                flex-wrap:wrap;
+                flex-direction:row;
+                justify-content:space-evenly;
+                align-items:stretch;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Sample flexbox example</h1>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h2>First:</h2>
+                    <p>El Bolboli: The Most MashaAllah Music Being Played While Ramadhan</p>
+                </article>
+                <article>
+                    <h2>Second:</h2>
+                    <p>English is my second language, as a vlogger, i deal with social media a lot, which is actually fun for me but i'd say sometimes its challenging</p>
+                </article>
+                <article>
+                    <h2>Third:</h2>
+                    <p>Tob tobi tob tob tobli</p>
+                </article>
+                <article>
+                    <h2>Fourth:</h2>
+                    <p>Just come outside for the night (yeah)<br>
+                        Take your time, get your light (yeah)<br>
+                        Johnny Dang, huh-uh<br>
+                        I been out geekin' (Scott T.)</p>
+                </article>
+                <article>
+                    <h2>Fifth:</h2>
+                    <p>Ain't no way, ain't no <span>forkin'</span> way (No)<br>
+                        We call the play, we didn't come to play (No)<br>
+                        Rob the bank, we gon' rob the game (Again)<br>
+                        They gang, we gang (Gang)<br>
+                        But they are not the same (Freebandz). (Depan M.)</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <main class="ending">
+                <h2>The End</h2>
+                <nav class="end-dx">
+                    <p>thebabablacksheep@mail.sheep.es</p>
+                    <p>@babablacksheep</p>
+                </nav>
+        </footer>
+    </body>
+</html>
